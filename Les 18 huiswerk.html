@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="">
+<head><meta charset="utf-8">
+    <title>Aalsmeer</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+#content{
+margin-top: 20px;    
+}
+[class*="col-"] {
+width: 100%;
+}
+@media only screen and (min-width: 768px) {
+[class*="col-"] {
+float: left;
+padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+#een{
+height: auto;
+background-color: aqua;
+}
+.list ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+.list li {
+padding: 8px;
+margin-bottom: 7px;
+background-color: blue;
+color: white;
+}
+.list li:hover {
+background-color: lightskyblue;
+}
+#een{
+display: flex;
+height: auto;
+background-color: aqua;
+}
+.museum{
+width: 500px;
+min-height: 150px;
+background-color: steelblue;
+display: inline-block;
+}
+.watertoren{
+width: 500px;
+min-height: 150px;
+background-color: lavender;
+display: inline-block;
+}
+footer{
+width: 100%;
+min-height: 150px;
+background-color: lightsteelblue;
+display: inline-block;
+}
+@media only screen and (min-width: 1200px) {
+header{
+background-color: red;
+}
+}
+</style>
+</head>
+<body>
+<div id="content">
+<header><h2>Aalsmeer</h2></header>
+<div class="row">
+<div class="col-2 list">
+<ul>
+<li>Bloemenstad</li>
+<li>Haarlemmermeer</li>
+<li>Bloemenveiling</li>
+<li>Het Flower Art Museum</li>
+<li>De Watertoren</li>
+</ul>
+</div>
+</div>
+<div class="col-9">
+<section id="een">
+<div class="museum">
+<h2>Flower Art Museum</h2>
+<p>Het Flower Art Museum organiseert tentoonstellingen met gerenommeerde kunstenaars en uitdagende thema’s, waarin de verbeelding van bloemen en planten in de hedendaagse kunst centraal staat.<img src="flower.jpg" alt="flower" width="250" style ="float: right;"> Het Flower Art Museum organiseert tentoonstellingen met gerenommeerde kunstenaars en uitdagende thema’s, waarin de verbeelding van bloemen en planten in de hedendaagse kunst centraal staat.</p>
+</div>
+<div class="watertoren">
+<h2>De Watertoren</h2>
+<p>Aan de Westeinderplassen ligt een van de mooiste watertorens van Nederland. Een architectonisch hoogtepunt, dat je letterlijk en figuurlijk niet kunt missen. Bezoekers kunnen de aparte binnenwereld van deze blikvanger bewonderen én op gezette tijden genieten van een grandioos uitzicht. Bij helder weer zie je vanaf de Watertoren Aalsmeer zelfs de Dom van Utrecht en de haven van IJmuiden.<img src="watertoren.jpg" alt="watertoren" width="250" style ="float: right;"> Aan de Westeinderplassen ligt een van de mooiste watertorens van Nederland. Een architectonisch hoogtepunt, dat je letterlijk en figuurlijk niet kunt missen. Bezoekers kunnen de aparte binnenwereld van deze blikvanger bewonderen én op gezette tijden genieten van een grandioos uitzicht. Bij helder weer zie je vanaf de Watertoren Aalsmeer zelfs de Dom van Utrecht en de haven van IJmuiden.</p>
+</div>
+</section>
+</div>
+</div>
+<footer></footer>
+</body>
+</html>
